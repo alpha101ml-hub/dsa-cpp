@@ -1,0 +1,53 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+    // vector<int> vec; // 0
+    // cout<<vec[0];
+    // vector<int> vec={1,2,3}; // 3
+    // cout<<vec[0];
+    // vector<int> vec (5,0); // 5
+    // cout<<vec[0]<<endl;
+    // cout<<vec[1]<<endl;
+    // cout<<vec[2]<<endl;
+    // cout<<vec[3]<<endl;
+    // cout<<vec[4]<<endl;
+
+    // for(int i: vec){
+    //     cout<<i<<endl;
+    // }
+
+    // vector<char> vec = {'a', 'b', 'c','d','e'};
+
+    // cout<<"size =" << vec.size() <<endl;
+
+    // for(char val: vec){
+    //     cout<<val<<endl;
+    // }
+
+    // vector<int> vec;
+
+    // cout<<"size ="<<vec.size()<<endl;
+    // vec.push_back(25);
+    // vec.push_back(35);
+    // vec.push_back(45);
+    // cout<<"after push back size="<<vec.size()<<endl;
+
+    // vec.pop_back(); //45
+    // for(int val: vec){ // for each loop
+    //     cout<<val<<endl;
+    // }
+    // cout<<vec.front()<<endl;
+    // cout<<vec.back()<<endl;
+    // cout<<vec.at[0]<<endl;
+    vector<int> vec;
+
+    vec.push_back(0);
+    vec.push_back(1);
+    vec.push_back(2);
+    
+    cout<<vec.size()<<endl;
+    cout<<vec.capacity()<<endl;
+    return 0;
+}
